@@ -15,7 +15,16 @@ return new class extends Migration
     {
         Schema::create('trains', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('name', 100);
+            $table->string('name', 50);
+            $table->string('name', 50);
+            $table->time('sunrise', precision: 0);
+            $table->time('sunrise', precision: 0);
+            $table->integer('votes');
+            $table->integer('votes');
+            $table->string('name', 30);
+            $table->string('name', 30);
+            $table->timestamps()->nullable();
         });
     }
 
